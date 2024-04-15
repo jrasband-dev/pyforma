@@ -7,18 +7,18 @@ HERE = pathlib.Path(__file__).parent
 # Package metadata
 NAME = 'pyforma'
 VERSION = '0.1.0'
-DESCRIPTION = ''
+DESCRIPTION = 'Create and Version HTML forms directly from a Dataclass'
 AUTHOR = 'Jayden Rasband'
 AUTHOR_EMAIL = 'jayden.rasband@gmail.com'
 URL = 'https://github.com/jrasband-dev/pyforma'
-LICENSE = 'License of your choice'
+LICENSE = 'MIT'
 
 # Long description from README.md file
 README = (HERE / "README.md").read_text()
 
 # Requirements
 REQUIREMENTS = [
-    'pydantic',
+    'jinja2',
 
 ]
 
